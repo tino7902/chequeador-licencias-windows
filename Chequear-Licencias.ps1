@@ -34,7 +34,6 @@
 .EXAMPLE
     PS C:\>.\Chequear-Licencias -TextFile C:\Temp\list.txt
 
-    Text file has computer name list, information is collected using wmi (DCom) protocol, this will try to connect remote computers with currently logged in user account.
     El archivo de texto contiene una lista de computadoras que serán chequeadas. La información se consigue con el protocolo DCom, se intentará conectarse a las computadoras utilizando el mismo usuario que haya iniciado sesión.
 .EXAMPLE
     PS C:\>.\Chequear-Licencias -TextFile C:\Temp\list.txt -Protocol Wsman -Crdential
